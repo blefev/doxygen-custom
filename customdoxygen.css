@@ -1622,9 +1622,21 @@ th.markdownTableHeadCenter, td.markdownTableBodyCenter {
 	font-family: 'PT Sans Narrow Bold', arial;
 	font-size: 18px;
 	border: 1px white:
+	background-image: none !important;
 }
 
-.sm-dox ul a, .sm-dox ; a:hover,
+#navtree a {
+	color: #011c4f !important;
+}
+
+#navtree a:hover {
+	color: #c1a868;
+}
+
+a:hover {
+	color: #c1a868 !important;
+}
+
 
 ul#main-menu.sm.sm-dox {
 	background-image: none !important;
@@ -1635,8 +1647,23 @@ ul#main-menu.sm.sm-dox {
 	background-image: none !important;
 }
 
+#titlearea {
+	border-bottom: 1px solid #d2d2d2;
+}
+
 #sm-15026618171528616-10 {
 	background-color: #011c4f !important;
+}
+
+#projectlogo {
+	position: absolute;
+	right: 0px;
+	padding: 10px;
+	height: 50px;
+}
+
+#projectlogo img {
+	height: 80%;
 }
 
 /* @end */
