@@ -2,12 +2,12 @@
 
 body, table, div, p, dl {
 /*	font: 400 14px/22px Roboto,sans-serif; */
-	font-family: "pt_sansregular","Arial Narrow",Arial,sans-serif;
+	font-family: 'PT Sans', Arial,sans-serif;
 	font-size: 14px !important;
 }
 
 p.reference, p.definition {
-	font: 400 14px/22px "pt_sansregular","Arial Narrow",Arial,sans-serif;
+	font: 400 14px/22px 'PT Sans',Arial,sans-serif;
 }
 
 /* @group Heading Levels */
@@ -18,7 +18,8 @@ h1.groupheader {
 }
 
 .title {
-	font: 400 14px/28px Roboto,sans-serif;
+	font: 400 14px/28px;
+	font-family: 'PT Sans', Arial,sans-serif;
 	font-size: 150%;
 	font-weight: bold;
 	margin: 10px 2px;
@@ -46,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 	-o-transition: text-shadow 0.5s linear;
 	transition: text-shadow 0.5s linear;
 	margin-right: 15px;
+	font-family: 'PT Sans', Arial,sans-serif;
 }
 
 h1.glow, h2.glow, h3.glow, h4.glow, h5.glow, h6.glow {
@@ -1630,7 +1632,11 @@ th.markdownTableHeadCenter, td.markdownTableBodyCenter {
 }
 
 #navtree a:hover {
-	color: #c1a868;
+	color: #946e2b;
+}
+
+.sm-dox a, .sm-dox a:hover, {
+	background-image: none !important;
 }
 
 a:hover {
@@ -1638,9 +1644,6 @@ a:hover {
 }
 
 
-ul#main-menu.sm.sm-dox {
-	background-image: none !important;
-}
 
 #main-menu {
 	background-color: #011c4f !important;
@@ -1659,11 +1662,42 @@ ul#main-menu.sm.sm-dox {
 	position: absolute;
 	right: 0px;
 	padding: 10px;
-	height: 50px;
+	height: 56px;
 }
 
 #projectlogo img {
 	height: 80%;
 }
 
+body, h1, h3, h4, h5, h6 {
+	font-family: 'PT Sans', Arial,sans-serif;
+}
+
+h1 {
+	color: #946e2b;
+	font-size: 2.5em;
+	margin-bottom: .3em 0;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: .1em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: #946e2b;
+}
+
+.sm-dox a, .sm-dox a:focus, .sm-dox a:active, .sm-dox a:hover, .sm-dox a.highlighted {
+	background-image: none;
+}
+
+.sm-dox a:hover {
+	color: white !important;
+	text-decoration: underline;
+	background-color: #23527c;
+}
+
+#projecttitle {
+	font-family: 'PT Sans', Arial, sans-serif;
+}
 /* @end */
