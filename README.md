@@ -30,7 +30,7 @@ On [SDSMT.edu](https://sdsmt.edu), pull up the inspector and hover over one of t
 
 We can repeat this process for other elements to discover what styles are being used. We can also select elements under the "Elements" tab under Chromium/Chrome, or the left main tab in Firefox dev tools. If we find the `container-fluid backgroundBlue` div under the `contentHeader` div, we will see a style class `backgroundBlue`. This contains the background color for the navbar, which we will also use in our menubar. Store it. 
 
-We can also look for a `font-family`. In Chromium/Chrome, select the `Computed` tab to see what the actual rendered font is. Unfortunately, we can't use all of the fonts on the site because some of them are proprietary, paid-for fonts (e.g. Rockwell). If we want to use a custom font, it either needs to be on the client's computer, or included in the Doxygen output directory. The navbar uses 'pt_sans', which a quick web search will bring up many sites to [download it from](https://www.fontsquirrel.com/fonts/pt-sans). It can then be sourced with:
+We can also look for a `font-family`. In Chromium/Chrome, select the `Computed` tab to see what the actual rendered font is. Unfortunately, we can't use all of the fonts on the site because some of them are proprietary, paid-for fonts (e.g. Rockwell). If we want to use a custom font, it either needs to be on the client's computer, or included in the Doxygen output directory. The navbar uses 'pt_sans', which a quick web search will bring up many sites to [download it from](http://www.1001fonts.com/pt-sans-font.html). It can then be sourced with:
 `@font-face {
   font-family: pt-sans;
   src: url('<YOUR FONT LOCATION>')
