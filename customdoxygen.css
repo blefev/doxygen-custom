@@ -1,17 +1,20 @@
 /* The standard CSS for doxygen 1.8.13 */
 
 body, table, div, p, dl {
-	font: 400 14px/22px Roboto,sans-serif;
+/*	font: 400 14px/22px Roboto,sans-serif; */
+	font-family: "pt_sansregular","Arial Narrow",Arial,sans-serif;
+	font-size: 14px !important;
 }
 
 p.reference, p.definition {
-	font: 400 14px/22px Roboto,sans-serif;
+	font: 400 14px/22px "pt_sansregular","Arial Narrow",Arial,sans-serif;
 }
 
 /* @group Heading Levels */
 
 h1.groupheader {
 	font-size: 150%;
+	color: #333;
 }
 
 .title {
@@ -516,9 +519,9 @@ table.memberdecls {
 
 .memtitle {
 	padding: 8px;
-	border-top: 1px solid #A8B8D9;
-	border-left: 1px solid #A8B8D9;
-	border-right: 1px solid #A8B8D9;
+	border-top: 1px solid #946e2b;
+	border-left: 1px solid #946e2b;
+	border-right: 1px solid #946e2b;
 	border-top-right-radius: 4px;
 	border-top-left-radius: 4px;
 	margin-bottom: -1px;
@@ -584,9 +587,9 @@ table.memberdecls {
 }
 
 .memproto, dl.reflist dt {
-        border-top: 1px solid #A8B8D9;
-        border-left: 1px solid #A8B8D9;
-        border-right: 1px solid #A8B8D9;
+        border-top: 1px solid #946e2b;
+        border-left: 1px solid #946e2b;
+        border-right: 1px solid #946e2b;
         padding: 6px 0px 6px 0px;
         color: #253555;
         font-weight: bold;
@@ -610,9 +613,9 @@ table.memberdecls {
 }
 
 .memdoc, dl.reflist dd {
-        border-bottom: 1px solid #A8B8D9;      
-        border-left: 1px solid #A8B8D9;      
-        border-right: 1px solid #A8B8D9; 
+        border-bottom: 1px solid #946e2b;      
+        border-left: 1px solid #946e2b;      
+        border-right: 1px solid #946e2b; 
         padding: 6px 10px 2px 10px;
         background-color: #FBFCFD;
         border-top-width: 0;
@@ -899,7 +902,7 @@ table.doxtable th {
 table.fieldtable {
         /*width: 100%;*/
         margin-bottom: 10px;
-        border: 1px solid #A8B8D9;
+        border: 1px solid #946e2b;
         border-spacing: 0px;
         -moz-border-radius: 4px;
         -webkit-border-radius: 4px;
@@ -915,8 +918,8 @@ table.fieldtable {
 
 .fieldtable td.fieldtype, .fieldtable td.fieldname {
         white-space: nowrap;
-        border-right: 1px solid #A8B8D9;
-        border-bottom: 1px solid #A8B8D9;
+        border-right: 1px solid #946e2b;
+        border-bottom: 1px solid #946e2b;
         vertical-align: top;
 }
 
@@ -925,7 +928,7 @@ table.fieldtable {
 }
 
 .fieldtable td.fielddoc {
-        border-bottom: 1px solid #A8B8D9;
+        border-bottom: 1px solid #946e2b;
         /*width: 100%;*/
 }
 
@@ -957,7 +960,7 @@ table.fieldtable {
         -webkit-border-top-right-radius: 4px;
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
-        border-bottom: 1px solid #A8B8D9;
+        border-bottom: 1px solid #946e2b;
 }
 
 
@@ -1592,5 +1595,48 @@ th.markdownTableHeadCenter, td.markdownTableBodyCenter {
 	text-align: center
 }
 
+#titlearea {
+	background-color: #011c4f;
+	color: #c1a868 !important;
+	text-indent: 10px; /* Space around logo*/
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#projectname {
+	font: 300% "pt_sans_regular", sans-serif !important;
+	font-weight: bold !important;
+}
+
+
+@media (min-width: 768px)
+.sm-dox {
+	background-image: none !important;
+	background-color: #011c4f !important;
+	color: #c1a868 !important;
+}
+
+.sm-dox a, .sm-dox a:hover {
+	color: #c1a868 !important;
+	text-shadow: none !important;
+	font-family: 'PT Sans Narrow Bold', arial;
+	font-size: 18px;
+	border: 1px white:
+}
+
+.sm-dox ul a, .sm-dox ; a:hover,
+
+ul#main-menu.sm.sm-dox {
+	background-image: none !important;
+}
+
+#main-menu {
+	background-color: #011c4f !important;
+	background-image: none !important;
+}
+
+#sm-15026618171528616-10 {
+	background-color: #011c4f !important;
+}
 
 /* @end */
