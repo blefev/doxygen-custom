@@ -1694,16 +1694,14 @@ body, h1, h3, h4, h5, h6 {
 	font-family: 'PT Sans', Arial,sans-serif;
 }
 
-h1 {
+/*h1 {
 	color: #946e2b;
 	font-size: 2.5em;
-	margin-bottom: .3em 0;
 }
 
 h2 {
 	font-size: 2em;
-	margin-bottom: .1em 0;
-}
+}*/
 h1, h2, h3, h4, h5, h6 {
 	color: #946e2b;
 }
@@ -1727,8 +1725,34 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 14px !important;
 }
 
+.sm-dox ul ul ul a {
+	max-height: 28px;
+	font-family: 'Sans', sans-serif;
+	font-weight: lighter !important;
+}
+
 .footer {
 	background-image: none !important;
 	background-color: #011c4f !important;
 }
+
+#nav-tree {
+	background-image: none;
+	background-color: #011c4f;
+
+}o
+#nav-tree .selected a {
+	color: white;
+}
+
+#nav-tree a:hover {
+	color: white;
+}
+
+#nav-tree a {
+	color: #e1c888;
+	font-weight: bold;
+}
+
+
 /* @end */
