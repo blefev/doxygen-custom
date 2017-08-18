@@ -1618,8 +1618,7 @@ h1.groupheader {
 }
 
 #titlearea {
-	background-color: white;
-	color: #011c4f !important;
+	color: white !important;
 	text-indent: 10px; /* Space around logo*/
 	font-size: 20px;
 	font-weight: bold;
@@ -1666,13 +1665,16 @@ a:hover {
 
 
 
-#main-menu {
+#main-menu, #titlearea{
 	background-color: #011c4f !important;
 	background-image: none !important;
+	border-bottom: 2px solid white;
 }
 
 #titlearea {
+	color: white;
 	border-bottom: 1px solid #d2d2d2;
+	margin: 0;
 }
 
 #sm-15026618171528616-10 {
@@ -1754,5 +1756,25 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: bold;
 }
 
+.navpath, .navpath ul, .navpath ul li, .navpath li.footer, img.footer: {
+	background-image: none !important;
+	background-color: white !important;
+	color: #011c4f !important;
+}
+
+.navpath ul {
+	background-image: none !important;
+	background-color: #011c4f !important;
+}
+
+.navpath li.footer {
+	background-color: #011c4f !important;
+	color: #c1a868;
+}
+
+.navpath li.navelem a {
+	color: #c1a868 !important;
+	text-shadow: none !important;
+}
 
 /* @end */
